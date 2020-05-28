@@ -77,18 +77,8 @@ def lambda_handler(event, context):
     '''
     Search Clothes
     '''
-    patchToImage = {}
-    with open("patch_information.csv") as f:
-        patch_inform = csv.reader(f)
-        for item in patch_inform:
-            try:
-                patchToImage[int(item[-1])] = item[0]
-            except Exception as e:
-                print(e)
-    s3_address = "Clothes_Endpoint"
-    for i in range(0, len(trans_closest)):
-        clothes = { j : s3_address + patchToImage[trans_closest[i][j]] for j in range(0, 15)}
-
+    # using KNN
+    clothes = test_funct(trans_closest) # no impl.
     clothes = reduce_v(clothes)
     pairs = {"clothes" : clothes}
 

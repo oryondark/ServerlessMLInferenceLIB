@@ -21,7 +21,7 @@ weight_parser(dnn_model, 'torch', hooking_dummy)
 2.restore model.
 ```python
 from ml_inference.modeling import *
-model = NeuralNet('weights_dict.h5')
+model = NeuralNet('weights.h5')
 ```
 
 ### Performance
@@ -30,6 +30,7 @@ model = NeuralNet('weights_dict.h5')
 3. No implemented hooking model, It is future study for hook to Gradient.
 
 ### Contributor
-Hyunjune Kim. - email is '4u_olion@naver.com' , You can call me Jey!
+**Hyunjune Kim** - email is '4u_olion@naver.com' , You can call me Jey!
+**Kyungyong Lee** - my professor is him, an assistant professor in KOOKMIN University.
 
 ### Bigdata Lab in Kookmin University
