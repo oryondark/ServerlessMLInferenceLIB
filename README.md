@@ -30,7 +30,7 @@ model = NeuralNet('weights.h5')
 3. No implemented hooking model, It is future study for hook to Gradient.
 
 ### Contributor
-**Hyunjune Kim** - email is '4u_olion@naver.com' , You can call me Jey!
+**Hyunjune Kim** - email is '4u_olion@naver.com' , You can call me Jey!<br>
 **Kyungyong Lee** - my professor is him, an assistant professor in KOOKMIN University.
 
 ### Bigdata Lab in Kookmin University
