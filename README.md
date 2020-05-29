@@ -24,10 +24,10 @@ from ml_inference.modeling import *
 model = NeuralNet('weights.h5')
 ```
 
-### Performance
-1. Theano with Scikit-Learn package could upload to AWS Lambda just only one.
-2. It is slow than Pytorch. Because Theano need set up G++ environment. It's not using the g++ accelerator, But i can built-in and checked.
-3. No implemented hooking model, It is future study for hook to Gradient.
+### Summary
+1. The light package using *theano* with Scikit-Learn can upload to AWS Lambda.
+2. It is slow than Pytorch as Theano need not setup G++ environment.
+3. No implemented hooking model.
 
 ### Contributor
 **Hyunjune Kim** - email is '4u_olion@naver.com' , You can call me Jey!<br>
