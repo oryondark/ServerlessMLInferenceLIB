@@ -27,7 +27,7 @@ model = NeuralNet('weights.h5')
 ### Summary
 1. The light package using *theano* with Scikit-Learn can upload to AWS Lambda.
 2. It is slow than Pytorch as Theano need not setup G++ environment.
-3. No implemented hooking model.
+3. This library can't support Tensorflow or MXNet.
 
 ### Contributor
 **Hyunjune Kim** - email is '4u_olion@naver.com' , You can call me Jey!<br>
